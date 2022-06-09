@@ -5,8 +5,8 @@ const Footer = () => {
   const name = "<ferdous/>";
   return (
     <>
-      <div className="bg-info shadow-sm border-t border-t-neutral">
-        <div className="container mx-auto py-4">
+      <div className="bg-info shadow-sm ">
+        <div className="container mx-auto py-4  border-t border-t-secondary">
           <h1 className="text-primary font-display text-center">{name}</h1>
           <div className="flex space-x-6 justify-center py-2">
             {data.footerSocial.map((item, index) => (
@@ -15,10 +15,10 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <p className="text-center font-body text-neutral text-sm">
-            &copy; {new Date().getFullYear()} Proudly Powered by
-            <a className="my-font-color" href="/">
-              ferdous
+          <p className="text-center font-display text-neutral text-sm">
+            &copy; {new Date().getFullYear()} Proudly Powered by 
+            <a className="text-primary ml-2" href="/">
+               ferdous
             </a>
           </p>
         </div>

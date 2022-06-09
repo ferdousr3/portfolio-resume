@@ -10,7 +10,7 @@ function App() {
       <header>
         <Header />
       </header>
-      <main className="container mx-auto xl:h-screen">
+      <main className="container mx-auto ">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="./home" element={<Home />} />

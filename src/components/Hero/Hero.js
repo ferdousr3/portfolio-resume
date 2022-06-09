@@ -12,15 +12,20 @@ const Hero = () => {
             <h1 className=" text-base font-normal text-primary pb-2 font-display">
               Hi, my name is
             </h1>
-            <h1 className=" text-4xl lg:text-6xl font-bold text-accent">
+            <h1 className=" text-xl md:text-4xl lg:text-6xl font-bold text-accent xl:leading-tight ">
               ferdous. <br /> I am a Web Developer{" "}
             </h1>
             <p className="py-6 text-neutral font-body">
               Hey, Are Looking For A Designer & Developer To Build Your Brand
               And Grow Your Business? Let's Shake Hands With Me.
             </p>
-            <a href={link} target="_blank" rel="noreferrer" className=" max-w-[160px] flex items-center justify-center text-primary border border-primary py-3 px-4 text-display text-sm hover:bg-secondary transition-colors duration-300 ">
-              Download CV <BsDownload className='ml-2 -mt-1' /> 
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className=" max-w-[130px] flex items-center justify-center text-primary border border-primary py-3 px-4 font-display text-sm hover:bg-secondary transition-colors duration-300 "
+            >
+              Resume <BsDownload className="ml-2 -mt-1 font-extrabold" />
             </a>
           </div>
           <div className=" hidden xl:block xl:col-span-4  mx-auto  xl:ml-auto">
