@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegFolderOpen, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import {  FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({project}) => {
   return (
