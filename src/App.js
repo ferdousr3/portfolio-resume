@@ -9,17 +9,17 @@ import Project from "./Pages/Project";
 import Blogs from "./Pages/Blogs";
 import { createContext, useState } from "react";
 import AboutMe from "./Pages/AboutMe";
-import Header from "./components/Header/Header1";
+import Header from "./components/Header/Header";
 
 export const ProjectContext = createContext();
 
 function App() {
-  const [project, setProject] = useState([]);
-  console.log(project);
+  const [projects, setProjects] = useState([]);
+  console.log(projects);
 
   return (
     <>
-      <ProjectContext.Provider value={[project, setProject]} >
+      <ProjectContext.Provider value={[projects, setProjects]} >
         <header>
           {/* <Header /> */}
           <Header/>

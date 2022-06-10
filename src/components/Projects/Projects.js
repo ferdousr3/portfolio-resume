@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useProject from '../../hooks/useProject';
 // import { FaRegFolderOpen, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
-  const [projects, setProjects] = useState([])
-  useEffect(()=>{
-    fetch(`data.json`)
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
-  },[])
+  const [projects] = useProject([])
   return (
     <>
       <div className="">
