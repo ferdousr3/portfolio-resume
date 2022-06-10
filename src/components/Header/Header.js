@@ -25,7 +25,7 @@ const Header = () => {
                     className="h-5 w-5"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#64E1DA"
                   >
                     <path
                       strokeLinecap="round"
@@ -40,7 +40,7 @@ const Header = () => {
                     className="h-5 w-5"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="currentColor"
+                    stroke="#64E1DA"
                   >
                     <path
                       strokeLinecap="round"
@@ -56,7 +56,7 @@ const Header = () => {
                 tabIndex="0"
                 className={
                   open
-                    ? " dropdown-content mt-3 p-4 shadow bg-secondary rounded-box text-sm font-medium text-accent w-80 sm:w-[50rem] mx-auto text-center space-y-1 "
+                    ? " dropdown-content mt-3 p-4 shadow bg-[#0A192F] rounded-box text-sm font-medium text-accent w-80 sm:w-[50rem] mx-auto text-center space-y-1 "
                     : "hidden"
                 }
               >
