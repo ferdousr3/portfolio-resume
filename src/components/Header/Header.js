@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-   const link = `https://drive.google.com/file/d/1A6O8q1IvPQaBBHd0YLRpv4yaKZa11YKq/view?usp=sharing`;
+  //  const link = `https://drive.google.com/file/d/1A6O8q1IvPQaBBHd0YLRpv4yaKZa11YKq/view?usp=sharing`;
   const name = "<ferdous/>";
   return (
     <>

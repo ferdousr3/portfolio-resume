@@ -6,6 +6,7 @@ const Header = () => {
   const handleClose = () => {
     setOpen(!open);
   };
+  const link = `https://drive.google.com/file/d/1A6O8q1IvPQaBBHd0YLRpv4yaKZa11YKq/view?usp=sharing`;
   const name = "<ferdous/>";
   return (
     <>
@@ -85,6 +86,16 @@ const Header = () => {
                     Blogs
                   </NavLink>
                 </li>
+                <li className="rounded-none ">
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-primary rounded-none  py-1 px-4 font-display border border-primary text-sm bg-secondary"
+                  >
+                    Resume
+                  </a>
+                </li>
               </ul>
             </div>
             <NavLink to="/" className="btn btn-link normal-case ml-1 lg:ml-0 ">
@@ -119,6 +130,16 @@ const Header = () => {
                 >
                   Blogs
                 </NavLink>
+              </li>
+              <li className="rounded-none ">
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-primary rounded-none  py-1 px-4 font-display border border-primary text-sm bg-secondary"
+                >
+                  Resume
+                </a>
               </li>
             </ul>
           </div>

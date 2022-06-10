@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../components/About/About';
+// import About from '../components/About/About';
 import Hero from '../components/Hero/Hero';
 import MySkills from '../components/MySkills/MySkills';
 // import Read from '../components/Read/Read';
