@@ -15,13 +15,18 @@ const Header = () => {
               </Link>
             </div>
             <div className="flex-none">
-              <ul className=" p-0 text-primary rounded-none ">
-                {/* <li>
-                  <Link className=" font-display text-md" to="/">
-                    Portfolio
+              <ul className="flex space-x-3 p-0 text-primary rounded-none ">
+                <li>
+                  <Link className=" font-display text-md" to="/aboutMe">
+                    About
                   </Link>
-                </li> */}
-                <li className="rounded-none ">
+                </li>
+                <li>
+                  <Link className=" font-display text-md" to="/blogs">
+                    Blogs
+                  </Link>
+                </li>
+                {/* <li className="rounded-none ">
                   <a
                     href={link}
                     target="_blank"
@@ -30,7 +35,7 @@ const Header = () => {
                   >
                     Resume
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

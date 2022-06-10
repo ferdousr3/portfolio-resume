@@ -12,20 +12,20 @@ const Home = () => {
       <section>
         <Hero />
       </section>
-      <section className='pb-24 '>
-        <About/>
-      </section>
+      {/* <section id="aboutMe" className="pb-24 ">
+        <About />
+      </section> */}
       {/* <section className='pb-24 pt-8 '>
         <Read/>
       </section> */}
-      <section className='pb-24  '>
-        <MySkills/>
+      <section className="pb-24  ">
+        <MySkills />
       </section>
-      <section className='pb-24'>
+      <section className="pb-24">
         <Projects />
       </section>
-      <section className='pb-24'>
-        <Contact/>
+      <section className="pb-24">
+        <Contact />
       </section>
     </>
   );

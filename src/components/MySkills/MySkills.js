@@ -5,7 +5,7 @@ const MySkills = () => {
   return (
     <>
       <div className="max-w-5xl mx-auto">
-        <SectionTitle serial="03" title="My Skills" />
+        <SectionTitle serial="01" title="My Skills" />
         <div className="max-w-5xl mx-auto">
           <div className="mb-6 max-w-4xl mx-auto bg-success p-4  rounded-sm ">
             <div className="md:flex pb-3">

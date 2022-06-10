@@ -5,9 +5,9 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   const [projects, setProjects] = useState([])
   useEffect(()=>{
-    fetch('data.json')
-    .then(res=> res.json())
-    .then(data=> setProjects(data))
+    fetch(`data.json`)
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
   },[])
   return (
     <>
