@@ -10,6 +10,7 @@ import Blogs from "./Pages/Blogs";
 import { createContext, useState } from "react";
 import AboutMe from "./Pages/AboutMe";
 import Header from "./components/Header/Header";
+import Contacts from "./Pages/Contacts";
 
 export const ProjectContext = createContext();
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/aboutMe" element={<AboutMe/>} />
+            <Route path="/contact" element={<Contacts/>} />
             <Route path="/project/:id" element={<Project />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="*" element={<Error />} />

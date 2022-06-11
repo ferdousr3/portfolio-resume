@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-info shadow-sm ">
-        <div className="container mx-auto py-4  border-t border-t-secondary">
+        <div className="container mx-auto py-6 border-t border-t-secondary">
           <h1 className="text-primary font-display text-center">{name}</h1>
           <div className="flex space-x-6 justify-center py-2">
             {data.footerSocial.map((item, index) => (

@@ -85,10 +85,10 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    rows="40"
+                    rows="4"
                     cols="5"
                     placeholder="Your Message"
-                    className="input input-bordered bg-transparent text-accent border-primary rounded-none"
+                    className=" textarea input-bordered bg-transparent text-accent  border-primary rounded-none"
                     name="message"
                   />
                 </div>

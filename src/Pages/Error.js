@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Error = () => {
   const navigate = useNavigate();
   return (
-    <div className="container pt-24 pb-5 max-w-3xl mx-auto">
+    <div className="container pt-24 xl:pt-48 h-screen max-w-3xl mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 font-heading">
         <div className="col-span-1">
           <h1 className="text-5xl font-extrabold text-accent  ">404</h1>

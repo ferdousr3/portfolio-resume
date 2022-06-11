@@ -86,6 +86,19 @@ const Header = () => {
                     Blogs
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive
+                        ? "text-primary font-display text-md"
+                        : "hover:text-accent transition-colors duration-300 font-display text-md "
+                    }
+                    onClick={handleClose}
+                    to="/contact"
+                  >
+                    Contact
+                  </NavLink>
+                </li>
                 <li className="rounded-none ">
                   <a
                     href={link}
@@ -129,6 +142,18 @@ const Header = () => {
                   to="/blogs"
                 >
                   Blogs
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-primary font-display text-md"
+                      : "hover:text-accent text-primary font-display text-md transition-colors duration-300 "
+                  }
+                  to="/contact"
+                >
+                  Contact
                 </NavLink>
               </li>
               <li className="rounded-none ">

@@ -1,35 +1,41 @@
 import React from "react";
 import allData from "../../data/data";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import tailwind from '../../images/skill/tailwind.svg'
-import react from '../../images/skill/react.svg'
-import mongodb from '../../images/skill/mongodb.svg'
-import NodeJS from '../../images/skill/nodejs.svg'
+import react from "../../images/skill/react.svg";
+
+
 
 const About = () => {
+ 
   return (
     <>
-      <div className="grid grid-cols-1 xl:grid-cols-5">
-        <div className="xl:col-span-2 flex items-end justify-center pb-10 lb-pb-0">
-          <div className="grid grid-cols-2 gap-5">
-            <img className=" w-28 xl:w-32" src={react} alt="tailwind " />
-            <img className=" w-28 xl:w-32" src={mongodb} alt="tailwind " />
-            <img className=" w-28 xl:w-32" src={tailwind} alt="tailwind " />
-            <img className=" w-28 xl:w-32" src={NodeJS} alt="tailwind " />
-          </div>
-        </div>
+      <div className="grid grid-cols-1 xl:grid-cols-5 pt-20 xl:px-24">
         <div className="xl:col-span-3">
           <SectionTitle serial="01" title="About me" />
-          <p className=" text-neutral text-md font-normal xl:mr-24">
+          <p className=" text-neutral text-md font-normal font-heading ">
             My name is Md. Ferdous. I am a professional Web Designer and
             Developer.I am Working With HTML, CSS, Bootstrap, TailwindCSS,
-            JavaScript, Reactjs, NextJS, NodeJS, firebase, Netlify, Vercel &
-            Heroku. My Job Is To Build Your Website Functional And User-Friendly
-            But At The Same Time Attractive. I am easy to integrate into a team
-            and am responsible enough to work with no supervision. My dream is
-            to be a world-class programmer. My mission is to learn new
-            technologies.
+            <span className="text-primary"> JavaScript, ReactJs,</span> NextJS,
+            NodeJS, <span className="text-primary">firebase, </span>
+            Netlify, Vercel & Heroku. My Job Is To Build Your Website Functional
+            And User-Friendly But At The Same Time Attractive.
+            <br /> <br />I am easy to integrate into a team and am responsible
+            enough to work with no supervision. My dream is to be a world-class
+            programmer. My mission is to learn new technologies.
           </p>
+          <p className=" text-neutral text-md font-normal font-heading pt-4">
+            Here are a few technologies I’ve been working with recently:
+          </p>
+          <div className="pt-4 grid grid-cols-2 w-full md:max-w-sm">
+            {allData.technologies.map((technology,index) => (
+              <div key={index} className="flex items-center ">
+                <span className="text-primary mr-2">&#x022B3;</span>
+                <p className="flex items-center text-accent text-xs font-display font-normal ">
+                  {technology.title}
+                </p>
+              </div>
+            ))}
+          </div>
           <div className="flex space-x-4 my-6 ">
             {allData.footerSocial.map((item, index) => (
               <a key={index} href={item.link} target="_blank" rel="noreferrer">
@@ -44,6 +50,11 @@ const About = () => {
             >
               Mail Me
             </button>
+          </div>
+        </div>
+        <div className="xl:col-span-2 mt-10 ">
+          <div className="flex justify-center items-center ">
+            <img className=" w-28 xl:w-60" src={react} alt="tailwind " />
           </div>
         </div>
       </div>
