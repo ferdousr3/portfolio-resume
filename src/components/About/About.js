@@ -9,7 +9,7 @@ const About = () => {
  
   return (
     <>
-      <div className="grid grid-cols-1 xl:grid-cols-5 pt-20 xl:px-24">
+      <div className=" md:h-screen grid grid-cols-1 xl:grid-cols-5 pt-20 xl:px-24">
         <div className="xl:col-span-3">
           <SectionTitle serial="01" title="About me" />
           <p className=" text-neutral text-md font-normal font-heading ">

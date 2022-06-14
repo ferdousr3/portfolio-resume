@@ -5,9 +5,9 @@ const Footer = () => {
   const name = "<ferdous/>";
   return (
     <>
-      <div className="bg-info shadow-sm ">
-        <div className="container mx-auto py-6 border-t border-t-secondary">
-          <h1 className="text-primary font-display text-center">{name}</h1>
+      <div className="pt-10 shadow-sm ">
+        <div className="container mx-auto py-6 ">
+          <h1 className="text-primary text-sm font-display text-center">{name}</h1>
           <div className="flex space-x-6 justify-center py-2">
             {data.footerSocial.map((item, index) => (
               <a key={index} href={item.link} target="_blank" rel="noreferrer">
@@ -15,7 +15,7 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <p className="text-center font-display text-neutral text-sm">
+          <p className="text-center font-display text-neutral text-xs">
             &copy; {new Date().getFullYear()} Proudly Powered by 
             <a className="text-primary ml-2" href="/">
                ferdous

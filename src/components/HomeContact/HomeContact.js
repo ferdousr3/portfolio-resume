@@ -4,7 +4,7 @@ const HomeContact = () => {
   return (
     <>
       <div className="text-center max-w-lg mx-auto pt-10">
-        <h1 className="text-primary font-display text-sm pb-2">What’s Next?</h1>
+        <h1 className="text-primary font-display text-sm pb-2"> 04. What’s Next?</h1>
         <h2 className="text-5xl py-3 text-accent font-bold">
           Get In Touch
         </h2>

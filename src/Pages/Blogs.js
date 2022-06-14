@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom';
 const Blogs = () => {
   return (
     <>
-      <div className="container pt-24 xl:pt-36 pb-5 max-w-3xl mx-auto h-screen">
+      <div className="container pt-24 xl:pt-36 pb-5 max-w-3xl mx-auto lg:h-screen">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 font-heading">
           <div className="col-span-1">
             <h1 className="text-5xl font-extrabold text-accent">Blogs</h1>

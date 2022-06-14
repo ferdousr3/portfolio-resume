@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { ProjectContext } from "../App";
 import {  FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
+
 const Project = () => {
   const navigate = useNavigate();
   const { id } = useParams();
@@ -12,14 +13,16 @@ const Project = () => {
 
   return (
     <>
-      <div className="hero min-h-screen ">
-        <div className="hero-content flex-col lg:flex-row">
-          <img
-            src={pro?.img}
-            alt={pro?.name}
-            className="xl:max-w-sm rounded-lg shadow-2xl"
-          />
-          <div className=" text-neutral">
+      <div className="hero pt-24 min-h-screen ">
+        <div className="hero-content grid grid-cols-1 lg:grid-cols-5">
+          <div className="lg:col-span-3">
+            <img
+              src={pro?.img}
+              alt={pro?.name}
+              className=" xl:max-w-xl  rounded-lg shadow-2xl"
+            />
+          </div>
+          <div className=" lg:col-span-2 text-neutral">
             <h1 className="text-5xl font-bold text-accent">{pro?.name}</h1>
             <h6 className="text-sm font-display"> {pro?.description}</h6>
 
@@ -75,7 +78,7 @@ const Project = () => {
               className=" flex items-center justify-center text-primary border-0  py-3  font-display text-sm  "
               onClick={() => navigate("/")}
             >
-              Back to Project
+               Back to Project
             </button>
           </div>
         </div>

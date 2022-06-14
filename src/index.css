@@ -28,3 +28,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.project-img{
+   background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+   
+}

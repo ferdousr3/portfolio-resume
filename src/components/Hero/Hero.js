@@ -1,12 +1,13 @@
 import React from 'react';
 import HeroRight from '../HeroRight/HeroRight';
 import {BsDownload} from 'react-icons/bs'
+import BackgroundAnimation from '../BackgroundAnimation/BackgroundAnimation';
 
 const Hero = () => {
   const link = `https://drive.google.com/file/d/1A6O8q1IvPQaBBHd0YLRpv4yaKZa11YKq/view?usp=sharing`;
   return (
     <>
-      <div className="hero min-h-screen ">
+      <div className="hero pt-24 lg:pt-0 lg:min-h-screen ">
         <div className="hero-content grid grid-cols-1 xl:grid-cols-7 xl:px-10 xl:gap-10">
           <div className="xl:col-span-3">
             <h1 className=" text-base font-normal text-primary pb-2 font-display">
@@ -28,8 +29,12 @@ const Hero = () => {
               Resume <BsDownload className="ml-2 -mt-1 font-extrabold" />
             </a>
           </div>
-          <div className=" hidden xl:block xl:col-span-4  mx-auto  xl:ml-auto">
+          <div className=" relative  hidden xl:block xl:col-span-4  mx-auto  xl:ml-auto">
             <HeroRight />
+
+            <div className=" absolute -top-24 w-full ">
+              <BackgroundAnimation />
+            </div>
           </div>
         </div>
       </div>
