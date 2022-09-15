@@ -109,7 +109,7 @@ const allData = {
       description: `I Completed my MBA(Accounting) Degree from the National University, Bangladesh.`,
     },
     {
-      name:'Application',
+      name: "Application",
       title: "COMPUTER APPLICATION",
       institute: "DYD, Bangladesh",
       date: "2019 – 2021(June)",

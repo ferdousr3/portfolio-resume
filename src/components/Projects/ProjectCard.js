@@ -6,7 +6,9 @@ const ProjectCard = ({project}) => {
   const navigate = useNavigate()
   const {
     id,
-    firstOverview,name,
+    projectType,
+    firstOverview,
+    name,
     img,
     description,
     technologies,
@@ -26,7 +28,7 @@ const ProjectCard = ({project}) => {
         <div className="py-4 px-8 md:text-right lg:col-span-3 xl:col-span-3 ">
           <div className="">
             <h1 className="text-primary font-light font-display text-sm ">
-              Full-stack Project
+              {projectType} Project
             </h1>
             <h2 className=" text-accent font-bold font-display text-xl ">
               {name}

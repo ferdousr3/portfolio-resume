@@ -1,6 +1,21 @@
 [
   {
-    "id":"1",
+    "id": "1",
+    "projectType":"Full-stack",
+    "img": "https://i.ibb.co/Jpt9bzk/detla-times.png",
+    "name": "Delta Times",
+    "link": "https://delta-times.netlify.app/",
+    "clientLink": "https://github.com/ShafinRME/the-delta-news-TS",
+    "serverLink": "https://github.com/ShafinRME/the-delta-times-server",
+    "technologies": "React, TypeScript, React router , JWT, Tailwind CSS, daisy UI, React Hook Form, React TanStack Query, NodeJs, MongoDB, Mongoose, React Firebase Hooks, vercel ,Stripe.",
+    "description": "It’s a user-friendly News Portal website.",
+    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
+    "secondOverview": "After login, a user can purchase ads packages  and pay by credit card. User can see their purchase history and give reviews.",
+    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin and moderator. An admin also can manage (add, delete) the news."
+  },
+  {
+    "id": "2",
+    "projectType": "Full-stack",
     "img": "https://i.ibb.co/LxYS0sy/autoparts.png",
     "name": "Auto Parts",
     "link": "https://auto-parts-a8b90.web.app/",
@@ -8,12 +23,13 @@
     "serverLink": "https://github.com/ferdousr3/auto-parts-server",
     "technologies": "React React-router Private-route JWT Tailwind CSS daisy-UI React-Hook-Form  React Query Node  MongoDB  React Firebase Hooks Heroku Stripe",
     "description": "It’s a user-friendly Car parts website.",
-    "firstOverview":"I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview":"After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
-    "thirdOverview":"Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
+    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
+    "secondOverview": "After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
+    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
   },
   {
-    "id":"2",
+    "id": "3",
+    "projectType": "Full-stack",
     "img": "https://i.ibb.co/JpqKhhV/autovio.png",
     "name": "Auto Vio",
     "link": "https://auto-vio.web.app/",
@@ -21,12 +37,13 @@
     "serverLink": "https://github.com/ferdousr3/auto-vio-server",
     "technologies": "React  React-router  Private-route Tailwind CSS daisy-UI  JWT React-Hook-Form React Query Node MongoDB React Firebase-Hooks Heroku",
     "description": "It’s a user-friendly Car Stock website.",
-    "firstOverview":"I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview":"• I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "thirdOverview":"Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
+    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
+    "secondOverview": "• I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
+    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
   },
   {
-    "id":"3",
+    "id": "4",
+    "projectType": "Front-end",
     "img": "https://i.ibb.co/1nvxg3n/xfit.png",
     "name": "X-fit",
     "link": "https://x-fit-full.web.app/",
@@ -34,12 +51,13 @@
     "serverLink": "",
     "technologies": "React React-router Private-route JWT Tailwind CSS daisy-UI React Hook Form  React Query Node  MongoDB  React Firebase Hooks Heroku Stripe",
     "description": "It’s a user-friendly gym service website.",
-    "firstOverview":"I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview":"After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
-    "thirdOverview":"Users can log in and purchase Any gym-related services."
+    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
+    "secondOverview": "After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
+    "thirdOverview": "Users can log in and purchase Any gym-related services."
   },
   {
-    "id":"4",
+    "id": "5",
+    "projectType": "Front-end",
     "img": "https://i.ibb.co/sK10zGx/techithouse.png",
     "name": "TechItHouse",
     "link": "https://techithousenext.netlify.app/",
@@ -47,9 +65,9 @@
     "serverLink": "",
     "technologies": "NextJs material-UI ",
     "description": "It’s a user-friendly Agency  website.",
-    "firstOverview":"I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview":"After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
-    "thirdOverview":"Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
+    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
+    "secondOverview": "After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
+    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
   }
   
 ]
