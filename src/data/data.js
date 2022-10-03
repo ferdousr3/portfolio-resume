@@ -71,7 +71,7 @@ const allData = {
   skills: [
     {
       title: "Expertise",
-      description: `HTML5, CSS3, Bootstrap5, JavaScript, ES6, REST API, ReactJS, NextJs, React-Router, React- Bootstrap, Authentication, Tailwind CSS, And Material UI.`,
+      description: `HTML5, CSS3, Bootstrap5, JavaScript, ES6,Typescript, REST API, ReactJS, NextJs, React-Router,ReduxJs, React-Bootstrap, Authentication, Tailwind CSS, And Material UI.`,
     },
     {
       title: "Comfortable",
@@ -79,7 +79,7 @@ const allData = {
     },
     {
       title: "Familiar",
-      description: `With react Native, React Query, React Hook Form, And Typescript.`,
+      description: `With react Native, React Query And React Hook Form.`,
     },
     {
       title: "Tools",
@@ -114,6 +114,68 @@ const allData = {
       institute: "DYD, Bangladesh",
       date: "2019 – 2021(June)",
       description: `I Completed Computer Application Course from the Department of Youth Development, Bangladesh.`,
+    },
+  ],
+  othersProject: [
+    {
+      id: 1,
+      name: "Mark Host - hosting website",
+      projectType: "front-ens",
+      technologies: "ReactJs Tailwind CSS firebase",
+      gitLink: "https://github.com/ferdousr3/markhosts-hosting-web-tempate",
+      liveLink: "https://markhosts-fe550.web.app/",
+      description:
+        "Mark Host is a hosting providing website, its fully responsive and mobile friendly",
+    },
+    {
+      id: 2,
+      name: "Dapplesoft - hosting website",
+      projectType: "front-ens",
+      technologies: "ReactJs Tailwind CSS firebase",
+      gitLink: "https://github.com/ferdousr3/dapplesoft",
+      liveLink: "https://dappnext.netlify.app/",
+      description:
+        "Dapplesoft is a hosting providing website, its fully responsive and mobile friendly",
+    },
+    {
+      id: 3,
+      name: "User Rest API",
+      projectType: "API",
+      technologies: "NodeJs ExpressJs Vercel",
+      gitLink: "https://github.com/ferdousr3/node-assignment-1",
+      liveLink: "https://user-zeta.vercel.app/",
+      description:
+        "User Rest API , user add ,delete , update , multiple update, its used expressJs builtin fs file system",
+    },
+    {
+      id: 4,
+      name: "User Rest API",
+      projectType: "API",
+      technologies: "NodeJs ExpressJs Mongoose MongoDB",
+      gitLink: "https://github.com/ferdousr3/node-assignment-2",
+      liveLink: "https://tours-gules.vercel.app/",
+      description:
+        "Tours Rest API , Tour add ,delete , update , multiple update, its used expressJs Mongoose and data validate schema",
+    },
+    {
+      id: 5,
+      name: "Todo App",
+      projectType: "full-stack",
+      technologies: "ReactJs NodeJs ExpressJs MongoDB",
+      gitLink: "https://github.com/ferdousr3/toDo-job-task",
+      liveLink: "https://todo-job-task-48e07.web.app",
+      description:
+        "User can Login and add his daily task, user can add date update and delete his task",
+    },
+    {
+      id: 6,
+      name: "Contact Details",
+      projectType: "full-stack",
+      technologies: "ReactJs NodeJs ExpressJs MongoDB",
+      gitLink: "a",
+      liveLink: "https://amazing-souffle-25f0c2.netlify.app/",
+      description:
+        "Tours Rest API , Tour add ,delete , update , multiple update, its used expressJs Mongoose and data validate schema",
     },
   ],
 };

@@ -32,7 +32,7 @@ module.exports = {
         portfoliotheme: {
           primary: "#64E1DA",
           secondary: "#112240",
-          accent: "#A8B2D1",
+          accent: "#ccd6f6",
           neutral: "#8892B0",
           info: "#0A192F",
           // success: "#71AFFF",

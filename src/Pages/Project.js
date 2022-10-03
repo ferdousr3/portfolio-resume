@@ -9,7 +9,6 @@ const Project = () => {
   const { id } = useParams();
   const [project] = useContext(ProjectContext);
   const pro = project.find((proj) => proj.id === id);
-  console.log(pro);
 
   return (
     <>
