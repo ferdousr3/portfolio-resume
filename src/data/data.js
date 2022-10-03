@@ -125,7 +125,7 @@ const allData = {
       gitLink: "https://github.com/ferdousr3/markhosts-hosting-web-tempate",
       liveLink: "https://markhosts-fe550.web.app/",
       description:
-        "Mark Host is a hosting providing website, its fully responsive and mobile friendly",
+        "Mark Host is a hosting providing website, its fully responsive and mobile friendly. user can purchase hosting packages",
     },
     {
       id: 2,
@@ -145,7 +145,7 @@ const allData = {
       gitLink: "https://github.com/ferdousr3/node-assignment-1",
       liveLink: "https://user-zeta.vercel.app/",
       description:
-        "User Rest API , user add ,delete , update , multiple update, its used expressJs builtin fs file system",
+        "User Rest API , user add ,delete , update and multiple updates. its used expressJs builtin fs file system",
     },
     {
       id: 4,
@@ -155,7 +155,7 @@ const allData = {
       gitLink: "https://github.com/ferdousr3/node-assignment-2",
       liveLink: "https://tours-gules.vercel.app/",
       description:
-        "Tours Rest API , Tour add ,delete , update , multiple update, its used expressJs Mongoose and data validate schema",
+        "Tours Rest API , Tour add ,delete , update and multiple update.its used expressJs Mongoose and data validate schema",
     },
     {
       id: 5,
@@ -175,7 +175,7 @@ const allData = {
       gitLink: "a",
       liveLink: "https://amazing-souffle-25f0c2.netlify.app/",
       description:
-        "Tours Rest API , Tour add ,delete , update , multiple update, its used expressJs Mongoose and data validate schema",
+        "Contact details is a B2B data collector web site. user can purchase his needed data for works like invitation",
     },
   ],
 };

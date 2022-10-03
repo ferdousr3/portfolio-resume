@@ -30,7 +30,7 @@ const OthersProject = () => {
                   {item.name}
                 </h1>
                 <h6 className="text-accent text-sm font-body font-[400]  pb-3 ">
-                  {item.description}
+                  {item.description} .
                 </h6>
               </div>
               <p className="text-accent text-xs font-display font-[400]  pb-3 pt-4">
