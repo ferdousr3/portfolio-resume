@@ -5,6 +5,9 @@ import {
   // FaTwitter,
   FaGithub,
 } from "react-icons/fa";
+const baseYear = 2022
+const currentYear = new Date().getFullYear()
+const workingExperience = currentYear - baseYear
 
 const allData = {
   name: "<ferdous/>",
@@ -12,7 +15,7 @@ const allData = {
   title: "hi there, i'm",
   subtitle: "DESIGNER + DEVELOPER",
   details:
-    "Hey, Are Looking For A Designer & Developer To Build Your Brand And Grow Your Business? Let's Shake Hands With Me.",
+    `I’m a Full-Stack Web Developer with ${workingExperience} years of experience building dynamic applications using Angular, React, Next.js, Node.js, Express, MongoDB, and PostgreSQL.I focus on creating intuitive UIs, scalable backend systems, and products that solve real- world problems with smooth digital experiences.`,
   about:
     "I'm A Freelance Web Designer & Developer. I am Working With HTML, CSS, Bootstrap, TailwindCSS, JavaScript, React, NextJS, NodeJS and Deploy on Microsoft Azure, Aws, Netlify, Vercel & Heroku. My Job Is To Build Your Website Functional And User-Friendly But At The Same Time Attractive. I Have A Strong Passion For The Creativity And Discipline That Goes Into Front-End Development. I'd like to Keep In Mind Scalability And Clean Code That Is Maintainable And Readable.",
 

@@ -11,7 +11,7 @@ const Education = () => {
         <div className="max-w-3xl mx-auto">
           <div className="mb-6 max-w-4xl mx-auto  p-4  rounded-sm ">
             {allData.educations.map((education, index) => (
-              <div className="md:flex pb-4">
+              <div key={index} className="md:flex pb-4">
                 <span className="mr-24 text-primary text-sm font-normal capitalize min-w-[100px]   hover:text-primary transition-colors duration-300 ">
                   {education.name}
                 </span>

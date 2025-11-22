@@ -36,7 +36,7 @@ const HeroRight = () => {
               &#34; ;
             </h3>
           </li>
-          <li className="lg:text-lg text-sm py-1 block">
+          {/* <li className="lg:text-lg text-sm py-1 block">
             <h3>
               <span className="pr-7">4</span>
               {data.title5} [ &#34;
@@ -45,17 +45,17 @@ const HeroRight = () => {
               <span className="font-bold">DEV</span>
               &#34; ] ;
             </h3>
-          </li>
+          </li> */}
           <li className="lg:text-lg text-sm py-1 block">
-            <span className="pr-6">5</span>
+            <span className="pr-6">4</span>
             {data.title8}
           </li>
           <li className="lg:text-lg text-sm py-1 block">
-            <span className="pr-5">6</span>
+            <span className="pr-5">5</span>
             {data.title9}
           </li>
           <li className="lg:text-lg text-sm py-1 block">
-            <span className="pr-1">7</span>
+            <span className="pr-1">6</span>
             {data.title10}
           </li>
         </ul>
