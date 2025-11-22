@@ -22,11 +22,11 @@ const allData = {
       text: "facebook",
       icon: FaFacebookF,
     },
-    {
-      link: "https://twitter.com/ferdousr3",
-      text: "twitter",
-      icon: FaTwitter,
-    },
+    // {
+    //   link: "https://twitter.com/ferdousr3",
+    //   text: "twitter",
+    //   icon: FaTwitter,
+    // },
     {
       link: "https://www.linkedin.com/in/ferdousr3/",
       text: "linkedin",
@@ -44,11 +44,11 @@ const allData = {
       text: "facebook",
       icon: FaFacebook,
     },
-    {
-      link: "https://twitter.com/ferdousr3",
-      text: "twitter",
-      icon: FaTwitter,
-    },
+    // {
+    //   link: "https://twitter.com/ferdousr3",
+    //   text: "twitter",
+    //   icon: FaTwitter,
+    // },
     {
       link: "https://www.linkedin.com/in/ferdousr3/",
       text: "linkedin",
@@ -71,11 +71,11 @@ const allData = {
   skills: [
     {
       title: "Expertise",
-      description: `HTML5, CSS3, Bootstrap5, JavaScript, ES6,Typescript, REST API, ReactJS, NextJs, React-Router,ReduxJs, React-Bootstrap, Authentication, Tailwind CSS, And Material UI.`,
+      description: `HTML5, CSS3, Bootstrap, JavaScript, ES6,Typescript, REST API, Angular, RxJs, NgRx, ReactJS, NextJs, React-Router, Redux, React-Bootstrap, Authentication, Tailwind CSS, And Material UI.`,
     },
     {
       title: "Comfortable",
-      description: `Node JS, MongoDB, Express JS, JWT, And Payment Method.`,
+      description: `Node JS, MongoDB,PostgreSQL, Express JS, HonoJs, NestJs, Prisma, Drizzle ORM, JWT,Docker, Docker-compose, And Payment Method.`,
     },
     {
       title: "Familiar",
@@ -91,19 +91,19 @@ const allData = {
       name: "development",
       title: "Web Development",
       institute: "programming-hero.com",
-      date: "2022(january) – Present",
+      date: "2022(january) – 2022(August)",
       description: `I Completed Web Design And Development Course from programming-hero.com, provided by programming-hero.com.`,
     },
     {
       name: "design",
       title: "DESIGN & DEVELOPMENT",
       institute: "LEDP, Bangladesh",
-      date: "2019 – 2021(June)",
+      date: "2021(June) – 2021(December)",
       description: `I Completed Web Design And Development Course from Ledp, provided by Bangladesh Government's ICT Department.`,
     },
     {
-      name: "mba",
-      title: "mba",
+      name: "BBA",
+      title: "bba",
       institute: "National University Bangladesh",
       date: "2010 – 2014(June)",
       description: `I Completed my MBA(Accounting) Degree from the National University, Bangladesh.`,
@@ -112,15 +112,71 @@ const allData = {
       name: "Application",
       title: "COMPUTER APPLICATION",
       institute: "DYD, Bangladesh",
-      date: "2019 – 2021(June)",
+      date: "2019 – 2020(June)",
       description: `I Completed Computer Application Course from the Department of Youth Development, Bangladesh.`,
+    },
+  ],
+  workExperiences: [
+    {
+      companyName: "Mattrika Tech",
+      title: "Full-Stack Developer",
+      companyUrl: "https://mattrika.com",
+      date: "2024(June) – Present",
+      description: `As a dedicated Full Stack Developer at Mattricka Technology, I played a key role in shaping innovative solutions across multiple projects.`,
+    },
+    {
+      companyName: "Devskill",
+      title: "Front-end developer",
+      companyUrl: "https://devskill.com",
+      date: "2023(January) – 2024(May)",
+      description: `Contributed to various projects including the front-end design of a training platform website and a recruitment platform. Supervised internships for the front-end of .NET students using angular and led the front-end & UI of hospital management software.`,
+    },
+    {
+      companyName: "Dapplesoft",
+      title: "Front-end developer",
+      companyUrl: "https://dapplesoft.com",
+      date: "2020(June) – 2023(November)",
+      description: `Design and develop Enterprise web applications by nextjs & mui(material-ui). E-shop design and development by Angular & Tailwind CSS.`,
     },
   ],
   othersProject: [
     {
       id: 1,
+      name: "Delta Times",
+      projectType: "Full-stack",
+      technologies: "React, TypeScript, TanStack Query, NodeJs, MongoDB, Mongoose, Firebase, vercel, Stripe.",
+      gitLink: "https://github.com/ShafinRME/the-delta-news-TS",
+      gitLinkOne: "https://github.com/ShafinRME/the-delta-times-server",
+      liveLink: "https://delta-times.netlify.app/",
+      description:
+        "It’s a user-friendly News Portal website.I use the google and email, password authentication system so a user and an admin must log in first.",
+    },
+    {
+      id: 2,
+      name: "Auto Parts",
+      projectType: "Full-stack",
+      technologies: "React, TypeScript, TanStack Query, NodeJs, MongoDB, Mongoose, Firebase, vercel, Stripe.",
+      gitLink: "https://github.com/ferdousr3/auto-parts-client",
+      gitLinkOne: "https://github.com/ferdousr3/auto-parts-server",
+      liveLink: "https://auto-parts-a8b90.web.app/",
+      description:
+        "It’s a user-friendly Car parts website. a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
+    },
+    {
+      id: 3,
+      name: "Auto Vio",
+      projectType: "Full-stack",
+      technologies: "React, TypeScript, TanStack Query, NodeJs, MongoDB, Mongoose, Firebase, vercel, Stripe.",
+      gitLink: "https://github.com/ferdousr3/auto-vio-client",
+      gitLinkOne: "https://github.com/ferdousr3/auto-vio-server",
+      liveLink: "https://delta-times.netlify.app/",
+      description:
+        "It’s a user-friendly Car Stock website.I use the google and email, password authentication system so a user and an admin must log in first.",
+    },
+    {
+      id: 4,
       name: "Mark Host - hosting website",
-      projectType: "front-ens",
+      projectType: "front-end",
       technologies: "ReactJs Tailwind CSS firebase",
       gitLink: "https://github.com/ferdousr3/markhosts-hosting-web-tempate",
       liveLink: "https://markhosts-fe550.web.app/",
@@ -128,9 +184,9 @@ const allData = {
         "Mark Host is a hosting providing website, its fully responsive and mobile friendly. user can purchase hosting packages",
     },
     {
-      id: 2,
+      id: 5,
       name: "Dapplesoft - hosting website",
-      projectType: "front-ens",
+      projectType: "front-end",
       technologies: "ReactJs Tailwind CSS firebase",
       gitLink: "https://github.com/ferdousr3/dapplesoft",
       liveLink: "https://dappnext.netlify.app/",
@@ -138,7 +194,7 @@ const allData = {
         "Dapplesoft is a hosting providing website, its fully responsive and mobile friendly",
     },
     {
-      id: 3,
+      id: 6,
       name: "User Rest API",
       projectType: "API",
       technologies: "NodeJs ExpressJs Vercel",
@@ -148,7 +204,7 @@ const allData = {
         "User Rest API , user add ,delete , update and multiple updates. its used expressJs builtin fs file system",
     },
     {
-      id: 4,
+      id: 7,
       name: "User Rest API",
       projectType: "API",
       technologies: "NodeJs ExpressJs Mongoose MongoDB",
@@ -158,7 +214,7 @@ const allData = {
         "Tours Rest API , Tour add ,delete , update and multiple update.its used expressJs Mongoose and data validate schema",
     },
     {
-      id: 5,
+      id: 8,
       name: "Todo App",
       projectType: "full-stack",
       technologies: "ReactJs NodeJs ExpressJs MongoDB",
@@ -168,12 +224,12 @@ const allData = {
         "User can Login and add his daily task, user can add date update and delete his task",
     },
     {
-      id: 6,
+      id: 9,
       name: "Contact Details",
       projectType: "full-stack",
       technologies: "ReactJs NodeJs ExpressJs MongoDB",
-      gitLink: "a",
-      liveLink: "https://amazing-souffle-25f0c2.netlify.app/",
+      gitLink: "github.com/ferdousr3/old.contactdetails",
+      liveLink: "https://contact-deatils-led.netlify.app/",
       description:
         "Contact details is a B2B data collector web site. user can purchase his needed data for works like invitation",
     },

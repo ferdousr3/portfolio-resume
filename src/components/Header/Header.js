@@ -60,7 +60,7 @@ const Header = () => {
                     : "hidden"
                 }
               >
-                <li>
+                {/* <li>
                   <NavLink
                     onClick={handleClose}
                     className={({ isActive }) =>
@@ -72,7 +72,7 @@ const Header = () => {
                   >
                     About
                   </NavLink>
-                </li>
+                </li> */}
                 <li>
                   <NavLink
                     className={({ isActive }) =>
@@ -120,7 +120,7 @@ const Header = () => {
           {/* desktop nav link */}
           <div className=" hidden navbar-end xl:flex">
             <ul className="flex space-x-4 p-0 text-sm font-medium text-accent ">
-              <li>
+              {/* <li>
                 <NavLink
                   className={({ isActive }) =>
                     isActive
@@ -131,7 +131,7 @@ const Header = () => {
                 >
                   About
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   className={({ isActive }) =>

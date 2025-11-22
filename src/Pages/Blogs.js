@@ -1,7 +1,12 @@
 import React from 'react';
-import { Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Blogs = () => {
+  const navigate = useNavigate();
+
+  const onClick = () => {
+    navigate("/");
+  };
   return (
     <>
       <div className="container pt-24 xl:pt-36 pb-5 max-w-3xl mx-auto lg:h-screen">
@@ -10,13 +15,13 @@ const Blogs = () => {
             <h1 className="text-5xl font-extrabold text-accent">Blogs</h1>
           </div>
           <div className="col-span-4">
-            <h1 className="text-5xl font-extrabold  text-accent  ">
+            <h1 className="text-5xl font-extrabold  text-accent">
               Coming Soon.......
             </h1>
             <div className="mt-3">
               <button
                 className=" bg-transparent text-primary py-2.5 px-8 rounded-3xl border border-primary text-[14px] font-normal hover:bg-secondary transition-colors duration-500"
-                onClick={() => Navigate("/")}
+                onClick={onClick}
               >
                 Go back home
               </button>

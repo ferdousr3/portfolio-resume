@@ -6,7 +6,7 @@ const MySkills = () => {
   return (
     <>
       <div className="max-w-4xl mx-auto">
-        <SectionTitle serial="01" title="My Skills" />
+        <SectionTitle serial="02" title="My Skills" />
         <div className="max-w-3xl mx-auto">
           <div className="mb-6 max-w-4xl mx-auto  p-4  rounded-sm ">
             {allData.skills.map((skill, index) => (

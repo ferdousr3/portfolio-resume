@@ -22,6 +22,11 @@ const OthersProject = () => {
                 <a href={item.gitLink} target="_blank" rel="noreferrer">
                   <FaGithub className="text-neutral font-light hover:text-primary transition-colors duration-300 mx-2" />
                 </a>
+                {item.gitLinkOne && (
+                  <a href={item.gitLinkOne} target="_blank" rel="noreferrer">
+                    <FaGithub className="text-neutral font-light hover:text-primary transition-colors duration-300 mx-2" />
+                  </a>
+                )}
               </div>
             </div>
             <div className="div">

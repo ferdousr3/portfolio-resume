@@ -5,6 +5,7 @@ import Projects from '../components/Projects/Projects'
 import Education from '../components/Education/Education';
 import HomeContact from '../components/HomeContact/HomeContact';
 import OthersProject from '../components/OthersProject/OthersProject';
+import WorkExperience from '../components/work-experience/work-experience';
 // import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation'
 
 const Home = () => {
@@ -14,10 +15,13 @@ const Home = () => {
         <Hero />
         {/* <BgAnimation /> */}
       </section>
-      <section className="pb-24  ">
+      <section className='pb-24'>
+        <WorkExperience />
+      </section>
+      <section className="pb-24">
         <MySkills />
       </section>
-      <section className="pb-24  ">
+      <section className="pb-24">
         <Education />
       </section>
       <section className="pb-24">
@@ -27,7 +31,7 @@ const Home = () => {
         <OthersProject />
       </section>
       <section className="pb-24">
-       <HomeContact />
+        <HomeContact />
       </section>
     </>
   );

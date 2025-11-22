@@ -1,76 +1,24 @@
 [
   {
     "id": "1",
-    "projectType":"Full-stack",
-    "img": "https://i.ibb.co/gPG9Cc7/delta-Times.png",
-    "name": "Delta Times",
-    "link": "https://delta-times.netlify.app/",
-    "clientLink": "https://github.com/ShafinRME/the-delta-news-TS",
-    "serverLink": "https://github.com/ShafinRME/the-delta-times-server",
-    "technologies": "React, TypeScript, React router , JWT, Tailwind CSS, daisy UI, React Hook Form, React TanStack Query, NodeJs, MongoDB, Mongoose, React Firebase Hooks, vercel ,Stripe.",
-    "description": "It’s a user-friendly News Portal website.",
-    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview": "After login, a user can purchase ads packages  and pay by credit card. User can see their purchase history and give reviews.",
-    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin and moderator. An admin also can manage (add, delete) the news."
+    "projectType": "Front-end",
+    "img": "https://i.ibb.co/5kZHDgL/xFit.png",
+    "name": "Devskill",
+    "link": "https://devskill.com/",
+    "clientLink": "https://github.com/ferdousr3/x-fit-gym1",
+    "serverLink": "",
+    "technologies": ".NET, Angular, Blazor, Bootstrap, Tailwind CSS",
+    "description": "Contributed to various projects including the front-end design of a training platform website and a recruitment platform. Supervised internships for the front-end of .NET students using angular and led the front-end & UI of hospital management software."
   },
   {
     "id": "2",
     "projectType": "Full-stack",
-    "img": "https://i.ibb.co/4WDWTzt/autoparts.png",
-    "name": "Auto Parts",
-    "link": "https://auto-parts-a8b90.web.app/",
-    "clientLink": "https://github.com/ferdousr3/auto-parts-client",
-    "serverLink": "https://github.com/ferdousr3/auto-parts-server",
-    "technologies": "React React-router Private-route JWT Tailwind CSS daisy-UI React-Hook-Form  React Query Node  MongoDB  React Firebase Hooks Heroku Stripe",
-    "description": "It’s a user-friendly Car parts website.",
-    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview": "After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
-    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
-  },
-  {
-    "id": "3",
-    "projectType": "Full-stack",
-    "img": "https://i.ibb.co/qJmLDpk/autoVio.png",
-    "name": "Auto Vio",
-    "link": "https://auto-vio.web.app/",
-    "clientLink": "https://github.com/ferdousr3/auto-vio-client",
-    "serverLink": "https://github.com/ferdousr3/auto-vio-server",
-    "technologies": "React  React-router  Private-route Tailwind CSS daisy-UI  JWT React-Hook-Form React Query Node MongoDB React Firebase-Hooks Heroku",
-    "description": "It’s a user-friendly Car Stock website.",
-    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview": "• I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
-  },
-  {
-    "id": "4",
-    "projectType": "Front-end",
     "img": "https://i.ibb.co/5kZHDgL/xFit.png",
-    "name": "X-fit",
-    "link": "https://x-fit-full.web.app/",
+    "name": "Sheresta",
+    "link": "https://sheresta.com/",
     "clientLink": "https://github.com/ferdousr3/x-fit-gym1",
     "serverLink": "",
-    "technologies": "React React-router Private-route JWT Tailwind CSS daisy-UI React Hook Form  React Query Node  MongoDB  React Firebase Hooks Heroku Stripe",
-    "description": "It’s a user-friendly gym service website.",
-    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview": "After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
-    "thirdOverview": "Users can log in and purchase Any gym-related services."
-  },
-  {
-    "id": "5",
-    "projectType": "Front-end",
-    "img": "https://i.ibb.co/f0zYLjC/thechIt.png",
-    "name": "TechItHouse",
-    "link": "https://techithousenext.netlify.app/",
-    "clientLink": "https://github.com/ferdousr3/techithouse.next",
-    "serverLink": "",
-    "technologies": "NextJs material-UI ",
-    "description": "It’s a user-friendly Agency  website.",
-    "firstOverview": "I use the google and email, password authentication system so a user and an admin must log in first. The users and admin data will save in the database.",
-    "secondOverview": "After login, a user can purchase the parts and pay by credit card. User can see their purchase history and give reviews.",
-    "thirdOverview": "Admin can see all users’ purchase history and add another email as an admin. An admin also can manage (add, delete) the parts."
+    "technologies": "HonoJs, Drizzle ORM, PostgreSQL, Angular, PrimeNG, Tailwind CSS",
+    "description": "Contributed as a Full-Stack Developer on this project, leading both front-end and back-end development. Oversaw pull requests, guided UI/UX decisions, and ensured high code quality through consistent reviews and technical leadership."
   }
-  
 ]
-
-
-

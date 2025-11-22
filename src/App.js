@@ -16,7 +16,6 @@ export const ProjectContext = createContext();
 
 function App() {
   const [projects, setProjects] = useState([]);
-  console.log(projects);
 
   return (
     <>
@@ -29,7 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/aboutMe" element={<AboutMe/>} />
+            {/* <Route path="/aboutMe" element={<AboutMe/>} /> */}
             <Route path="/contact" element={<Contacts/>} />
             <Route path="/project/:id" element={<Project />} />
             <Route path="/blogs" element={<Blogs />} />

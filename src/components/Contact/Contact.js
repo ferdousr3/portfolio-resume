@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="hero-content grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2">
           <div className="text-center lg:text-left xl:pr-8">
             <h1 className="text-5xl font-bold text-accent">
-              Do you have Any Project? Please leave a Message.
+              Any Questions, Please leave a Message.
             </h1>
             <p className="py-6 text-sm font-display text-accent">
               let me know how i can help. you may Fill out the form and I'll be
@@ -102,7 +102,7 @@ const Contact = () => {
               </form>
 
               {/* <form onSubmit={handleSubmit(sendEmail)}>
-                
+
                 <div className="form-control w-full">
                   <label className="label">
                     <span className="label-text text-accent">Name</span>
@@ -135,7 +135,7 @@ const Contact = () => {
                     )}
                   </label>
                 </div>
-               
+
                 <div className="form-control w-full">
                   <label className="label">
                     <span className="label-text text-accent">Email</span>
@@ -168,7 +168,7 @@ const Contact = () => {
                     )}
                   </label>
                 </div>
-                
+
                 <div className="form-control w-full ">
                   <label className="label">
                     <span className="label-text text-accent">Message</span>
