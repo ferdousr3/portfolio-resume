@@ -1,20 +1,20 @@
 import React from 'react';
-import { FaRegFolderOpen, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { FaExternalLinkAlt } from "react-icons/fa";
+// import { useNavigate } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   const {
-    id,
-    projectType,
+    // id,
+    // projectType,
     firstOverview,
     name,
-    img,
+    // img,
     description,
     technologies,
     link,
-    clientLink,
-    serverLink,
+    // clientLink,
+    // serverLink,
   } = project;
 
   return (

@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Project from "./Pages/Project";
 import Blogs from "./Pages/Blogs";
 import { createContext, useState } from "react";
-import AboutMe from "./Pages/AboutMe";
+// import AboutMe from "./Pages/AboutMe";
 import Header from "./components/Header/Header";
 import Contacts from "./Pages/Contacts";
 

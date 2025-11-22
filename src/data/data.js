@@ -2,7 +2,7 @@ import {
   FaFacebook,
   FaFacebookF,
   FaLinkedinIn,
-  FaTwitter,
+  // FaTwitter,
   FaGithub,
 } from "react-icons/fa";
 

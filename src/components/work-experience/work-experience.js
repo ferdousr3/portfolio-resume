@@ -18,7 +18,7 @@ const WorkExperience = () => {
                               {work.title}
                            </h1>
                            <h2 className="text-accent font-display text-sm pb-1">
-                              <a className="text-primary" href={work.companyUrl} target="_blank">&#127760; {work.companyUrl}</a>
+                              <a className="text-primary" href={work.companyUrl} target="_blank" rel="noreferrer">&#127760; {work.companyUrl}</a>
                            </h2>
                            <h3 className=" font-display text-xs font-semibold text-primary pb-1">
                               {work.date}
